@@ -1,7 +1,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
 class UserManager {
-  late SharedPreferences pref;
+  late final SharedPreferences pref;
   static const uidKey = 'uid_key';
   Future<bool> init() async {
     //Эгер тиркеме ачылганда uid ни оку
